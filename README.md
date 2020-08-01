@@ -51,6 +51,8 @@ To produce more plausible black and white image colorizations the authors also u
 
 ## Models Used
 
-`colorization_release_v2.caffemodel` : The path to the model weights trained in Caffe.
-`colorization_deploy_v2.prototxt` : Caffe specific file which defines the network.
-`pts_in_hull.npy` : Path to cluster center points stored in numpy format.
+  `colorization_release_v2.caffemodel` : The path to the model weights trained in Caffe.
+  
+  `colorization_deploy_v2.prototxt` : Caffe specific file which defines the network.
+
+  `pts_in_hull.npy` : Path to cluster center points stored in numpy format.
