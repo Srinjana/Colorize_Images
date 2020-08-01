@@ -3,6 +3,7 @@ This project helps us colourize Black and White images by using OpenCV, Deep lea
 ---
 ## How can we colorize black and white images with deep learning?
 
+![](images/dl.jpg)
 Previous approaches to black and white image colorization relied on manual human annotation and often produced desaturated results that were not “believable” as true colorizations.
 Zhang et al. decided to attack the problem of image colorization by using Convolutional Neural Networks to “hallucinate” what an input grayscale image would look like when colorized.
 
