@@ -39,3 +39,17 @@ To produce more plausible black and white image colorizations the authors also u
   python colorimg.py --image images/img4.jpg --prototxt models/colorization_deploy_v2.prototxt --model models/colorization_release_v2.caffemodel --points models/pts_in_hull.npy
 ```
 
+## Screenshot 
+![](images/sc.png)
+
+## Details about the project
+
+* the `images/` folder has the input images
+* the `results/` folder has the colourized images 
+* the Caffe model and prototxt are inside the `models/`  directory along with the cluster points NumPy file, but not uploaded here.
+
+## Models Used
+
+`colorization_release_v2.caffemodel` : The path to the model weights trained in Caffe.
+`colorization_deploy_v2.prototxt` : Caffe specific file which defines the network.
+`pts_in_hull.npy` : Path to cluster center points stored in numpy format.
